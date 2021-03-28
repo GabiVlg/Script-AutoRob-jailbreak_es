@@ -268,7 +268,7 @@ local O =
     {
         Name = "museumLbl",
         Size = UDim2.new(0.2, 0, 1, 0),
-        Text = "Museum",
+        Text = "Museo",
         TextSize = 18,
         Font = "SourceSansLight",
         BackgroundTransparency = 1,
@@ -374,7 +374,7 @@ local W =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Bank Cops Danger Range",
+        Text = "Rango de peligro de los policías bancarios",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -412,7 +412,7 @@ local Z =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Respawn To Speed Up Plane",
+        Text = "Respawn para acelerar el avión",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -441,7 +441,7 @@ local cb =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Prefer Longer Warnings",
+        Text = "Prefiero advertencias más largas",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -479,7 +479,7 @@ local fb =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Remember Your Position",
+        Text = "Recuerda tu posición",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -493,7 +493,7 @@ local gb =
         Name = "Title",
         TextWrapped = true,
         Size = UDim2.new(0.5, 0, 0, 20),
-        Text = "Auto-Rob by kim111",
+        Text = "Robo Automático por kim111",
         TextSize = 18,
         Font = "Highway",
         BackgroundTransparency = 1,
@@ -1757,7 +1757,7 @@ if b then
     game:GetService("StarterGui"):SetCore(
         "SendNotification",
         {
-            Title = "Auto-Rob by kim111",
+            Title = "Robo Automático por kim111",
             Text = t and "OPTIONS CHANGED!" or "tp method is currently patched",
             Duration = 15,
             Button1 = "nigga"
@@ -1767,7 +1767,7 @@ else
     game:GetService("StarterGui"):SetCore(
         "SendNotification",
         {
-            Title = "Auto-Rob by kim111",
+            Title = "Robo Automático por kim111",
             Text = t and "OPTIONS CHANGED!" or "Consider buying a paid exploit for more features, like robbing power",
             Duration = 15,
             Button1 = "ty daddy"
