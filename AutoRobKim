@@ -14,7 +14,7 @@ local n = Vector3.new()
 local o = false
 local p, q, r = Color3.fromRGB(0, 222, 0), Color3.fromRGB(222, 0, 0), Color3.fromRGB(222, 222, 222)
 local s = {
-    enabled = true,
+    enabled = false,
     jewlAllowCrims = false,
     preferLongTP = false,
     bankRadius2 = 19,
@@ -102,7 +102,7 @@ local C =
         Active = true,
         Size = UDim2.new(0, 333, 0, 140),
         Position = UDim2.new(0.1, 0, 0.3, 0),
-        BackgroundColor3 = Color3.new(0, 0.118, 0.239)
+        BackgroundColor3 = Color3.new(0.035, 0.035, 0.035)
     }
 )
 local D =
@@ -284,7 +284,7 @@ local P =
     {
         Name = "planeLbl",
         Size = UDim2.new(0.2, 0, 1, 0),
-        Text = "Avión",
+        Text = "Avion",
         TextSize = 18,
         Font = "SourceSansLight",
         BackgroundTransparency = 1,
@@ -374,7 +374,7 @@ local W =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Rango de peligro de los policías bancarios",
+        Text = "Rango de peligro de los policias bancarios",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -412,7 +412,7 @@ local Z =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Respawn para acelerar el avión",
+        Text = "Respawn para acelerar el avion",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -441,7 +441,7 @@ local cb =
     {
         TextWrapped = true,
         Size = UDim2.new(0.8, 0, 1, 0),
-        Text = "Prefiero advertencias más largas",
+        Text = "Prefiero advertencias mas largas",
         TextSize = 15,
         Font = "Code",
         BackgroundTransparency = 1
@@ -1571,7 +1571,7 @@ local function hc()
         if mc then
             wb = false
             P.TextColor3 = Color3.new(1, 1, 1)
-            jb("Éxito en el avión!")
+            jb("Éxito en el avion!")
         end
     end
     ib(false)
@@ -1715,7 +1715,7 @@ local function ic()
 end
 local function jc()
     Ab = tick()
-    jb("Acelerando el avión...")
+    jb("Acelerando el avion...")
     local mc = m.CFrame
     if tostring(i.Team) ~= "Police" then
         d(qb, 1, 1)
@@ -1729,7 +1729,7 @@ local function jc()
         )
     end
     for pc = 1, #ob do
-        if ob[pc].Name == "Llamar avión de carga" then
+        if ob[pc].Name == "Llamar avion de carga" then
             ob[pc]:Callback(true)
             break
         end
